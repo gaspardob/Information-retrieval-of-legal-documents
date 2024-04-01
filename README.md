@@ -20,6 +20,9 @@ Ainsi, on peut importer les embeddings des 22k articles (et notamment leurs proj
 
 il faut aussi telecharger questions_test, csv, questions_train.csv, bm25_negatives_train.json et articles.csv de la base de donnée https://huggingface.co/datasets/maastrichtlawtech/bsard/tree/main
 
+Il suffit ensuite de charger P_q_ex.pth et all_projected_article_embeddings_ex.pt. 
+
+
 !pip install datasets==2.15.0 --quiet
 !pip install pandas==2.1.3 --quiet
 !pip install python-terrier==0.10.0 --quiet
