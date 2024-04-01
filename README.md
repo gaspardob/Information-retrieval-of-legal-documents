@@ -10,15 +10,13 @@ je construis et optimise un projecteur qui rapproche la projjection de l'article
 je recgarde ensuite les articles avec leurs projections d'embeddings les plus proches de la projection de l'embedding de la question
 
 
-J'utilise Google Drive. 
-il faut un dossier qui s'appelle file_path = '/content/drive/My Drive/Jimini/article_embeddings/ avec cela dedans https://drive.google.com/drive/folders/1nR1D7of6iZxezAOIwrb6uLJo42GupR4M?usp=share_link
-
-il faut aussi telecharger questions_test, csv, questions_train.csv, bm25_negatives_train.json et articles.csv
 
 # Installations : 
 
 J'utilise Google Drive. 
 il faut un dossier qui s'appelle file_path = '/content/drive/My Drive/Jimini/article_embeddings/ avec cela dedans https://drive.google.com/drive/folders/1nR1D7of6iZxezAOIwrb6uLJo42GupR4M?usp=share_link
+
+Ainsi, on peut importer les embeddings des 22k articles (et notamment leurs projections), ainsi que le projecteur P_q, 
 
 il faut aussi telecharger questions_test, csv, questions_train.csv, bm25_negatives_train.json et articles.csv
 
