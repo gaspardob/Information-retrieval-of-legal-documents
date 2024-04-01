@@ -14,11 +14,11 @@ je recgarde ensuite les articles avec leurs projections d'embeddings les plus pr
 # Installations : 
 
 J'utilise Google Drive. 
-il faut un dossier qui s'appelle file_path = '/content/drive/My Drive/Jimini/article_embeddings/ avec cela dedans https://drive.google.com/drive/folders/1nR1D7of6iZxezAOIwrb6uLJo42GupR4M?usp=share_link
+il faut un dossier qui s'appelle file_path = '/content/drive/My Drive/Jimini/article_embeddings/ avec les différents fichiers du github à l'interieur.
 
 Ainsi, on peut importer les embeddings des 22k articles (et notamment leurs projections), ainsi que le projecteur P_q, 
 
-il faut aussi telecharger questions_test, csv, questions_train.csv, bm25_negatives_train.json et articles.csv
+il faut aussi telecharger questions_test, csv, questions_train.csv, bm25_negatives_train.json et articles.csv de la base de donnée https://huggingface.co/datasets/maastrichtlawtech/bsard/tree/main
 
 !pip install datasets==2.15.0 --quiet
 !pip install pandas==2.1.3 --quiet
