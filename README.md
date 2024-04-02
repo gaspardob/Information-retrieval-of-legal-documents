@@ -4,9 +4,13 @@
 # Mon modèle :
 
 Mon modèle consiste à faire les étapes suivantes:
+
 je fais l'embedding de tous les articles avec Bert
+
 je fais l'embedding des questions + train de l'enrainement
+
 je construis et optimise un projecteur qui rapproche la projjection de l'article et la projection de la question et qui discrimine les articles qui ne sont pas pertinents.
+
 je recgarde ensuite les articles avec leurs projections d'embeddings les plus proches de la projection de l'embedding de la question
 
 
